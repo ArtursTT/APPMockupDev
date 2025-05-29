@@ -32,9 +32,15 @@ class FifthFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //binding.buttonSecond.setOnClickListener {
-            //findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-        //}
+        binding.buttonSecond20.setOnClickListener {
+            findNavController().navigate(R.id.action_FifthFragment_to_SeventhFragment)
+        }
+        binding.buttonSecond19.setOnClickListener {
+            findNavController().navigate(R.id.action_FifthFragment_to_SecondFragment)
+        }
+        binding.buttonSecond18.setOnClickListener {
+            findNavController().navigate(R.id.action_FifthFragment_to_SixthFragment)
+        }
     }
 
     override fun onDestroyView() {

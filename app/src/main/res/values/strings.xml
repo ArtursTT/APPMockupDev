@@ -27,6 +27,8 @@
     <string name="search_long">search by tags, creator name...</string>
     <string name="artist_placeholder">Artist Profile Name</string>
     <string name="request">Open Request</string>
+    <string name="new_message">enter your message</string>
+    <string name="message_placeholder">Message text.</string>
 
 
 </resources>

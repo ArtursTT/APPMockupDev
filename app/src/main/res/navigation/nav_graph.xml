@@ -67,12 +67,30 @@
         android:name="com.example.myapplication.FifthFragment"
         android:label="@string/fifth_fragment_label"
         tools:layout="@layout/fragment_fifth">
+        <action
+            android:id="@+id/action_FifthFragment_to_SixthFragment"
+            app:destination="@id/SixthFragment" />
+        <action
+            android:id="@+id/action_FifthFragment_to_SeventhFragment"
+            app:destination="@id/SeventhFragment" />
+        <action
+            android:id="@+id/action_FifthFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
     </fragment>
     <fragment
         android:id="@+id/SixthFragment"
         android:name="com.example.myapplication.SixthFragment"
         android:label="@string/sixth_fragment_label"
         tools:layout="@layout/fragment_sixth">
+        <action
+            android:id="@+id/action_SixthFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_SixthFragment_to_SeventhFragment"
+            app:destination="@id/SeventhFragment" />
+        <action
+            android:id="@+id/action_SixthFragment_to_FifthFragment"
+            app:destination="@id/FifthFragment" />
     </fragment>
     <fragment
         android:id="@+id/SeventhFragment"
