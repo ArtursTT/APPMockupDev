@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ForHire: PORTFOLIO</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Log In or Join!</string>
+    <string name="second_fragment_label">Register</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="chats_list">Open Chats</string>
+    <string name="homepage">Homepage</string>
+    <string name="previous">Previous</string>
+    <string name="email_or_user">e-mail or username</string>
+    <string name="pass">pass</string>
+    <string name="profile">Profile</string>
+    <string name="followed_creators">Followed Creators</string>
+    <string name="visual_artists">Visual Artists</string>
+    <string name="ddd_artists">3D Model Artists</string>
+    <string name="musicians">Musicians</string>
+    <string name="writers">Writers</string>
+    <string name="programmers">Programmers</string>
+    <string name="search">search</string>
+    <string name="search_long">search by tags, creator name...</string>
+
+
+</resources>
