@@ -6,14 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.myapplication.databinding.FragmentSecondBinding
+import com.example.myapplication.databinding.FragmentThirdBinding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
 class ThirdFragment : Fragment() {
 
-    private var _binding: FragmentSecondBinding? = null
+    private var _binding: FragmentThirdBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,7 +24,7 @@ class ThirdFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentThirdBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -32,8 +32,24 @@ class ThirdFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonSecond.setOnClickListener {
-            findNavController().navigate(R.id.action_ThirdFragment_to_SecondFragment)
+        binding.buttonSecond9.setOnClickListener {
+            findNavController().navigate(R.id.action_ThirdFragment_to_SixthFragment)
+        }
+        binding.buttonSecond10.setOnClickListener {
+            findNavController().navigate(R.id.action_ThirdFragment_to_SeventhFragment)
+        }
+        binding.buttonSecond11.setOnClickListener {
+            findNavController().navigate(R.id.action_ThirdFragment_to_SecondFragment2)
+        }
+
+        binding.buttonSecond4.setOnClickListener {
+            findNavController().navigate(R.id.action_ThirdFragment_to_FourthFragment)
+        }
+        binding.buttonSecond5.setOnClickListener {
+            findNavController().navigate(R.id.action_ThirdFragment_to_FourthFragment)
+        }
+        binding.buttonSecond14.setOnClickListener {
+            findNavController().navigate(R.id.action_ThirdFragment_to_FourthFragment)
         }
     }
 

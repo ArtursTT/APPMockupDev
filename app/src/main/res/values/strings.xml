@@ -3,7 +3,12 @@
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Log In or Join!</string>
-    <string name="second_fragment_label">Register</string>
+    <string name="second_fragment_label">Homepage</string>
+    <string name="third_fragment_label">Browser</string>
+    <string name="fourth_fragment_label">Creator Profile</string>
+    <string name="fifth_fragment_label">Chat</string>
+    <string name="sixth_fragment_label">Your Chats</string>
+    <string name="seventh_fragment_label">Your Profile</string>
     <string name="log_in">Log in</string>
     <string name="register">Register</string>
     <string name="chats_list">Open Chats</string>
@@ -20,6 +25,8 @@
     <string name="programmers">Programmers</string>
     <string name="search">search</string>
     <string name="search_long">search by tags, creator name...</string>
+    <string name="artist_placeholder">Artist Profile Name</string>
+    <string name="request">Open Request</string>
 
 
 </resources>
